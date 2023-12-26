@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('cat.jpg')
+img = cv2.imread('./opencvpractice/cat.jpg')
 img = cv2.resize(img, (0,0), fx = 2, fy = 2)
 
 print(img.shape)

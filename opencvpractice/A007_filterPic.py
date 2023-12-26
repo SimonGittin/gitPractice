@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('XiWinnie.jpg')
+img = cv2.imread('./opencvpractice/XiWinnie.jpg')
 
 #print(img.shape) -> (394, 700, 3)
 

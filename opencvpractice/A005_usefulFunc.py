@@ -14,7 +14,7 @@ thin the outline
 import cv2
 import numpy as np
 
-img = cv2.imread('cat.jpg')
+img = cv2.imread('./opencvpractice/cat.jpg')
 
 img = cv2.resize(img, (0,0), fx = 1.5, fy = 1.5)
 

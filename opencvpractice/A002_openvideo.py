@@ -1,11 +1,13 @@
 import cv2
 from cv2 import VideoCapture
 
-cap = VideoCapture('vid.mov')
+
 
 ########################  VideoCapture(0) can capture your current camera  #############################
-# # #　cap = VideoCapture(0)
+cap = VideoCapture(0)
 
+### cap a video
+#cap = VideoCapture('./opencvpractice/vid.mov')
 
 '''
 ret returns boolean val to determine if u have next frame,

@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 def face(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    path = 'face_detect.xml'
+    path = './opencvpractice/face_detect.xml'
 
     faceCascade = cv2.CascadeClassifier(path)
     face_rect = faceCascade.detectMultiScale(gray, 1.1, 3)

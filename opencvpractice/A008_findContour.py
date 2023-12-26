@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('shape.png')
+img = cv2.imread('./opencvpractice/shape.png')
 
 imgContour = img.copy()
 

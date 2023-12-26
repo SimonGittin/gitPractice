@@ -1,9 +1,9 @@
 import cv2
 
-img = cv2.imread('iu.jpg')
+img = cv2.imread('./opencvpractice/iu.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-path = 'face_detect.xml'
+path = './opencvpractice/face_detect.xml'
 
 faceCascade = cv2.CascadeClassifier(path)
 face_rect = faceCascade.detectMultiScale(gray, 1.1, 3)

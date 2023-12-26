@@ -5,8 +5,8 @@ img = cv2.imread('./opencvpractice/cat.jpg')
 
 
 #resize picture
-#img = cv2.resize(img,(100,100))
-img = cv2.resize(img, (0,0), fx = 1.5, fy = 1.5)
+img = cv2.resize(img,(1000,1000))
+#img = cv2.resize(img, (0,0), fx = 1.5, fy = 1.5)
 
 
 #show pic
