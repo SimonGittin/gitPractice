@@ -42,6 +42,7 @@ B = inv(A)*C;
 pretty(B)
 
 %% Translational mechanical system solution p.60 Skill-assessment 2.8
+% suitable for rotational mechanical systems too
 
 syms s x1 x2 f
 
