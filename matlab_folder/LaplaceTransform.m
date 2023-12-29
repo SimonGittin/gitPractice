@@ -1,6 +1,14 @@
-% Laplace transform and iverse laplace
+% Laplace transform and inverse laplace
 % Later on, applications will be introduced
+clc; clear; close all;
 
+%% Polynomial representation (s+3)(s+2) & s^2+4s+2
+% find roots, concatenate polys
+
+P1 = poly([-3 -2]);
+P2 = [1 4 2];
+rootP1 = roots(P1);
+concP = conv(P1, P2);
 %% Two transfer function representation
 
 % zeros, poles, gains
@@ -56,4 +64,4 @@ B = inv(A)*C;
 pretty(B)
 
 % basically the same way we do to electrical ones
-%% 
+
