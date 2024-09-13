@@ -6,7 +6,7 @@ clc; clear;close all;
 A = [0 1 0; 0 0 1; -9 -8 -7];
 B = [7;8;9];
 C = [2 3 4];
-D = 0;
+D = 0; 
 
 F = ss(A, B, C, D);
 
