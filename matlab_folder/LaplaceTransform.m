@@ -65,4 +65,5 @@ B = inv(A)*C;
 pretty(B)
 
 % basically the same way we do to electrical ones
+% thats the way
 
